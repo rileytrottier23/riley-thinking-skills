@@ -1,0 +1,23 @@
+{
+  "enableWorkflows": true,
+  "enabledPlugins": {
+    "riley-pm-skills@riley-claude-skills": true,
+    "riley-personal-skills@riley-claude-skills": true,
+    "anthropic-example-skills@riley-claude-skills": true,
+    "pm-skills-deanpeters@riley-claude-skills": true,
+    "pm-skills-digidai@riley-claude-skills": true,
+    "writing-skills-obra@riley-claude-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "riley-claude-skills": {
+      "source": {
+        "source": "github",
+        "repo": "rileytrottier23/Riley-Claude-Skills"
+      }
+    }
+  },
+  "autoUpdatesChannel": "latest",
+  "theme": "dark",
+  "inputNeededNotifEnabled": false,
+  "agentPushNotifEnabled": true
+}
