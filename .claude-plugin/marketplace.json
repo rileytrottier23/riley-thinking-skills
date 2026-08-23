@@ -1,0 +1,34 @@
+{
+  "name": "riley-thinking-skills",
+  "owner": {
+    "name": "Riley Trottier",
+    "url": "https://github.com/rileytrottier23"
+  },
+  "metadata": {
+    "description": "Riley's thinking and general skills: decision, reflection, and practice partners, personal-life modelling, skill-publishing tooling, plus vendored writing and creative collections.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "riley-thinking-skills",
+      "description": "Riley's own thinking and general skills: decision-partner, decision-review, practice-partner, reflection-partner, Canadian personal-finance modelling, chess coaching, Quebec French tutoring, and the skill-publishing tool.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./mine/"]
+    },
+    {
+      "name": "anthropic-example-skills",
+      "description": "Example skills from anthropics/skills (Apache 2.0): doc co-authoring, internal comms, algorithmic art, brand guidelines, theme factory, Slack GIF creator, Claude Academy guide, discernment nudge.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./vendored/anthropic/"]
+    },
+    {
+      "name": "writing-skills-obra",
+      "description": "Jesse Vincent's Elements of Style packaging (public domain): Strunk's 1918 rules applied to documentation, commit messages, and any prose an agent writes.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./vendored/obra-elements-of-style/"]
+    }
+  ]
+}
