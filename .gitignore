@@ -1,0 +1,16 @@
+# This home directory is a git repo that versions ONLY select .claude/ content.
+# Default to ignoring everything, so secrets and app data (.claude.json,
+# .credentials.json, AppData/, Downloads/, etc.) can never be committed by accident.
+/*
+
+# Keep this ignore file itself trackable.
+!/.gitignore
+
+# Descend into .claude/, but ignore its contents by default
+# (.claude.json lives above this; .claude/plugins, projects, code, etc. stay ignored).
+!/.claude/
+/.claude/*
+
+# Re-include only what we intentionally version.
+!/.claude/skills/
+!/.claude/settings.json
