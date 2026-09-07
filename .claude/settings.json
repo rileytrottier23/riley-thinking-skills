@@ -1,23 +1,44 @@
 {
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Skill"
+    ]
+  },
   "enableWorkflows": true,
   "enabledPlugins": {
-    "riley-pm-skills@riley-claude-skills": true,
-    "riley-personal-skills@riley-claude-skills": true,
-    "anthropic-example-skills@riley-claude-skills": true,
-    "pm-skills-deanpeters@riley-claude-skills": true,
-    "pm-skills-digidai@riley-claude-skills": true,
-    "writing-skills-obra@riley-claude-skills": true
+    "anthropic-coding-skills@riley-coding-skills": true,
+    "superpowers@riley-coding-skills": true,
+    "pm-skills-deanpeters@riley-pm-skills": true,
+    "riley-pm-skills@riley-pm-skills": true,
+    "anthropic-example-skills@riley-thinking-skills": true,
+    "riley-thinking-skills@riley-thinking-skills": true,
+    "writing-skills-obra@riley-thinking-skills": true,
+    "pm-skills-digidai@riley-pm-skills": true
   },
   "extraKnownMarketplaces": {
-    "riley-claude-skills": {
+    "riley-coding-skills": {
       "source": {
-        "source": "github",
-        "repo": "rileytrottier23/Riley-Claude-Skills"
+        "source": "git",
+        "url": "https://github.com/rileytrottier23/Riley-Coding-Skills.git"
+      }
+    },
+    "riley-pm-skills": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/rileytrottier23/Riley-PM-Skills.git"
+      }
+    },
+    "riley-thinking-skills": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/rileytrottier23/riley-thinking-skills.git"
       }
     }
   },
   "autoUpdatesChannel": "latest",
   "theme": "dark",
   "inputNeededNotifEnabled": false,
-  "agentPushNotifEnabled": true
+  "agentPushNotifEnabled": true,
+  "tui": "fullscreen"
 }
