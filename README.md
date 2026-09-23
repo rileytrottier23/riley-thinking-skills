@@ -8,7 +8,7 @@ here rather than left in a chat history.
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 17 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 20 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
@@ -29,13 +29,14 @@ answerable at a glance.
 **Claude desktop app / Cowork:** Customize → Plugins → Personal plugins → **+** → Add marketplace →
 Add from a repository → `rileytrottier23/riley-thinking-skills`
 
-Three plugins, install whichever you want:
+Four plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
-| `riley-thinking-skills` | 8 | My thinking, reflection, personal-finance, chess, French, and skill-publishing skills |
+| `riley-thinking-skills` | 10 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, and skill-publishing skills |
 | `anthropic-example-skills` | 8 | Anthropic's example skills — writing, comms, and creative (Apache 2.0) |
 | `writing-skills-obra` | 1 | Strunk's Elements of Style, packaged by Jesse Vincent (public domain) |
+| `avoid-ai-writing` | 1 | Conor Bronsdon's AI-writing pattern audit and rewrite (MIT) |
 
 ## My skills (`mine/`)
 
@@ -49,6 +50,8 @@ Three plugins, install whichever you want:
 | [chess-coach](./mine/chess-coach) | Practical chess coaching for the 700–1200 Elo range — tactics, openings, endgames, game analysis. |
 | [french-tutor](./mine/french-tutor) | French practice with an emphasis on Quebec French, for an anglophone parent in a bilingual household. |
 | [publish-skill-to-github](./mine/publish-skill-to-github) | Routes any new or edited skill to the right one of the three skill repos, into `mine/` or `vendored/`, and updates that repo's README, marketplace, and changelog. |
+| [checker-agent](./mine/checker-agent) | Reviews any work artifact for accuracy, gaps, and risks before it ships. |
+| [diagnose-broken-integration](./mine/diagnose-broken-integration) | Diagnoses automations, syncs, CI jobs, and credentials that broke or are failing silently. |
 
 ## Vendored skills (`vendored/`)
 
@@ -56,6 +59,7 @@ Three plugins, install whichever you want:
 |---|---|---|---|
 | [anthropic](./vendored/anthropic) | [Anthropic](https://github.com/anthropics/skills) | 8 | Apache 2.0 |
 | [obra-elements-of-style](./vendored/obra-elements-of-style) | [Jesse Vincent](https://github.com/obra/the-elements-of-style) | 1 | Public domain |
+| [conorbronsdon-avoid-ai-writing](./vendored/conorbronsdon-avoid-ai-writing) | [Conor Bronsdon](https://github.com/conorbronsdon/avoid-ai-writing) | 1 | MIT |
 
 Each vendored folder is a pinned snapshot, not a live mirror. Updating means a fresh vendor commit
 against a newer upstream SHA — never an edit in place — so the diff always shows what changed upstream.
