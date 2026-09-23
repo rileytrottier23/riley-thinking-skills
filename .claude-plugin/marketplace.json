@@ -6,12 +6,12 @@
   },
   "metadata": {
     "description": "Riley's thinking and general skills: decision, reflection, and practice partners, personal-life modelling, skill-publishing tooling, plus vendored writing and creative collections.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "riley-thinking-skills",
-      "description": "Riley's own thinking and general skills: decision-partner, decision-review, practice-partner, reflection-partner, Canadian personal-finance modelling, chess coaching, Quebec French tutoring, and the skill-publishing tool.",
+      "description": "Riley's own thinking and general skills: decision-partner, decision-review, practice-partner, reflection-partner, Canadian personal-finance modelling, chess coaching, Quebec French tutoring, a pre-ship quality checker, a broken-integration diagnostician, and the skill-publishing tool.",
       "source": "./",
       "strict": false,
       "skills": ["./mine/"]
@@ -29,6 +29,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./vendored/obra-elements-of-style/"]
+    },
+    {
+      "name": "avoid-ai-writing",
+      "description": "Conor Bronsdon's avoid-ai-writing (MIT): audits and rewrites prose to strip AI writing patterns, with detect, rewrite, and edit modes and voice profiles.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./vendored/conorbronsdon-avoid-ai-writing/"]
     }
   ]
 }
