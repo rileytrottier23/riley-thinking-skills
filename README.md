@@ -8,7 +8,7 @@ here rather than left in a chat history.
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 21 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 20 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
@@ -33,7 +33,7 @@ Four plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
-| `riley-thinking-skills` | 11 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, Code↔Cowork handoff, and skill-publishing skills |
+| `riley-thinking-skills` | 10 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, and skill-publishing skills |
 | `anthropic-example-skills` | 8 | Anthropic's example skills — writing, comms, and creative (Apache 2.0) |
 | `writing-skills-obra` | 1 | Strunk's Elements of Style, packaged by Jesse Vincent (public domain) |
 | `avoid-ai-writing` | 1 | Conor Bronsdon's AI-writing pattern audit and rewrite (MIT) |
@@ -52,7 +52,6 @@ Four plugins, install whichever you want:
 | [publish-skill-to-github](./mine/publish-skill-to-github) | Routes any new or edited skill to the right one of the three skill repos, into `mine/` or `vendored/`, and updates that repo's README, marketplace, and changelog. |
 | [checker-agent](./mine/checker-agent) | Reviews any work artifact for accuracy, gaps, and risks before it ships. |
 | [diagnose-broken-integration](./mine/diagnose-broken-integration) | Diagnoses automations, syncs, CI jobs, and credentials that broke or are failing silently. |
-| [code-cowork-handoff](./mine/code-cowork-handoff) | Spots when work fits the other surface (Claude Code or Cowork) better and writes a paste-ready handoff file for it. |
 
 ## Vendored skills (`vendored/`)
 
