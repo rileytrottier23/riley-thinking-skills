@@ -10,8 +10,8 @@ repo a skill belongs in, puts it there under `mine/` or `vendored/`, and keeps t
 
 | Repo | Holds | Examples |
 |---|---|---|
-| [`riley-pm-skills`](https://github.com/rileytrottier23/riley-pm-skills) | Product & PM work | PRDs/specs, stakeholder decks, competitive & market research, discovery, JTBD, prioritization, roadmaps, user stories, PM career |
-| [`riley-coding-skills`](https://github.com/rileytrottier23/riley-coding-skills) | Coding & engineering | TDD, debugging, code review, implementation planning, git worktrees, MCP-server building, frontend/webapp build & test, API references |
+| [`riley-pm-skills`](https://github.com/rileytrottier23/Riley-PM-Skills) | Product & PM work | PRDs/specs, stakeholder decks, competitive & market research, discovery, JTBD, prioritization, roadmaps, user stories, PM career |
+| [`riley-coding-skills`](https://github.com/rileytrottier23/Riley-Coding-Skills) | Coding & engineering | TDD, debugging, code review, implementation planning, git worktrees, MCP-server building, frontend/webapp build & test, API references |
 | [`riley-thinking-skills`](https://github.com/rileytrottier23/riley-thinking-skills) | Everything else | decision/reflection/practice partners, personal life (finance, chess, French), writing & comms, creative/design (art, brand, themes, GIFs), meta/tooling (this skill, Claude how-to) |
 
 ## Which repo? (routing)

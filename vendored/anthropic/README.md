@@ -9,7 +9,7 @@ Each is a **folder** — `SKILL.md` plus scripts, references, and assets, and it
 Copy the whole directory, not just the markdown.
 
 The engineering-oriented Anthropic skills (mcp-builder, webapp-testing, web-artifacts-builder,
-frontend-design, claude-api) live in [riley-coding-skills](https://github.com/rileytrottier23/riley-coding-skills)
+frontend-design, claude-api) live in [riley-coding-skills](https://github.com/rileytrottier23/Riley-Coding-Skills)
 instead; this folder holds the writing, comms, and creative ones.
 
 | Skill | What it does |

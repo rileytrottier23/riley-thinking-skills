@@ -1,8 +1,8 @@
 # Riley Thinking Skills
 
 Thinking, reflection, and general-purpose Claude skills — the ones that don't belong in
-[riley-pm-skills](https://github.com/rileytrottier23/riley-pm-skills) (product work) or
-[riley-coding-skills](https://github.com/rileytrottier23/riley-coding-skills) (engineering). Versioned
+[riley-pm-skills](https://github.com/rileytrottier23/Riley-PM-Skills) (product work) or
+[riley-coding-skills](https://github.com/rileytrottier23/Riley-Coding-Skills) (engineering). Versioned
 here rather than left in a chat history.
 
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
