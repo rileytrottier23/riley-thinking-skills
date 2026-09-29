@@ -6,12 +6,12 @@
   },
   "metadata": {
     "description": "Riley's thinking and general skills: decision, reflection, and practice partners, personal-life modelling, skill-publishing tooling, plus vendored writing and creative collections.",
-    "version": "1.2.1"
+    "version": "1.3.0"
   },
   "plugins": [
     {
       "name": "riley-thinking-skills",
-      "description": "Riley's own thinking and general skills: decision-partner, decision-review, practice-partner, reflection-partner, Canadian personal-finance modelling, chess coaching, Quebec French tutoring, a pre-ship quality checker, a broken-integration diagnostician, and the skill-publishing tool.",
+      "description": "Riley's own thinking and general skills: decision-partner, decision-review, practice-partner, reflection-partner, Canadian personal-finance modelling, chess coaching, Quebec French tutoring, a pre-ship quality checker, a broken-integration diagnostician, a reply-layout guide (visual-output), and the skill-publishing tool.",
       "source": "./",
       "strict": false,
       "skills": ["./mine/"]
