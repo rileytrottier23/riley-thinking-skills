@@ -5,8 +5,8 @@
     "url": "https://github.com/rileytrottier23"
   },
   "metadata": {
-    "description": "Riley's thinking and general skills: decision, reflection, and practice partners, personal-life modelling, skill-publishing tooling, plus vendored writing and creative collections.",
-    "version": "1.3.0"
+    "description": "Riley's thinking and general skills: decision, reflection, and practice partners, personal-life modelling, skill-publishing tooling, plus vendored writing, creative, and diagram collections.",
+    "version": "1.4.0"
   },
   "plugins": [
     {
@@ -36,6 +36,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./vendored/conorbronsdon-avoid-ai-writing/"]
+    },
+    {
+      "name": "diagram-design",
+      "description": "Cathryn Lavery's diagram-design (MIT): editorial-quality diagrams and charts as self-contained HTML and SVG, matched to your brand's colours and fonts.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./vendored/cathrynlavery-diagram-design/"]
     }
   ]
 }
