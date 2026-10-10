@@ -2,6 +2,7 @@
 
 Newest first.
 
+- 2026-10-10 — Added `vendored/cathrynlavery-diagram-design/diagram-design`. 22 skills total.
 - 2026-09-29 — Added `mine/visual-output`. 21 skills total.
 - 2026-09-25 — Removed `mine/code-cowork-handoff` (duplicate; it lives in riley-coding-skills). 20 skills total.
 - 2026-09-25 — Added `mine/code-cowork-handoff`. 21 skills total.
