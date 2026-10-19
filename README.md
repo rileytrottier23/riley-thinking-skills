@@ -49,7 +49,7 @@ Five plugins, install whichever you want:
 | [reflection-partner](./mine/reflection-partner) | Runs your weekly/monthly/annual reflection with pointed questions about where time and attention actually went. |
 | [canadian-financial-modeler](./mine/canadian-financial-modeler) | Canada-specific personal-finance modelling — mortgages, TFSA/RRSP/RESP/FHSA, RSU tax, HELOC, rental analysis. |
 | [chess-coach](./mine/chess-coach) | Practical chess coaching for the 700–1200 Elo range — tactics, openings, endgames, game analysis. |
-| [french-tutor](./mine/french-tutor) | French practice with an emphasis on Quebec French, for an anglophone parent in a bilingual household. |
+| [french-tutor](./mine/french-tutor) | French practice with an emphasis on Quebec French, for anglophone learners. |
 | [publish-skill-to-github](./mine/publish-skill-to-github) | Routes any new or edited skill to the right one of the three skill repos, into `mine/` or `vendored/`, and updates that repo's README, marketplace, and changelog. |
 | [checker-agent](./mine/checker-agent) | Reviews any work artifact for accuracy, gaps, and risks before it ships. |
 | [diagnose-broken-integration](./mine/diagnose-broken-integration) | Diagnoses automations, syncs, CI jobs, and credentials that broke or are failing silently. |
