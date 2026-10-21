@@ -29,14 +29,13 @@ answerable at a glance.
 **Claude desktop app / Cowork:** Customize → Plugins → Personal plugins → **+** → Add marketplace →
 Add from a repository → `rileytrottier23/riley-thinking-skills`
 
-Five plugins, install whichever you want:
+Four plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
-| `riley-thinking-skills` | 11 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, reply-layout, and skill-publishing skills |
+| `riley-thinking-skills` | 12 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, reply-layout, AI-writing cleanup, and skill-publishing skills |
 | `anthropic-example-skills` | 8 | Anthropic's example skills — writing, comms, and creative (Apache 2.0) |
 | `writing-skills-obra` | 1 | Strunk's Elements of Style, packaged by Jesse Vincent (public domain) |
-| `avoid-ai-writing` | 1 | Conor Bronsdon's AI-writing pattern audit and rewrite (MIT) |
 | `diagram-design` | 1 | Cathryn Lavery's editorial diagrams and charts as HTML and SVG (MIT) |
 
 ## My skills (`mine/`)
@@ -54,6 +53,7 @@ Five plugins, install whichever you want:
 | [checker-agent](./mine/checker-agent) | Reviews any work artifact for accuracy, gaps, and risks before it ships. |
 | [diagnose-broken-integration](./mine/diagnose-broken-integration) | Diagnoses automations, syncs, CI jobs, and credentials that broke or are failing silently. |
 | [visual-output](./mine/visual-output) | Shapes replies to scan instead of read: answer first, task lists, tables, scorecards, diagrams, decisions set apart. |
+| [avoid-ai-writing](./mine/avoid-ai-writing) | Rewrites AI-sounding drafts so they read like me: the humanizer pattern list plus a profile of my own writing voice and the tells Claude keeps adding to it. |
 
 ## Vendored skills (`vendored/`)
 
@@ -61,7 +61,6 @@ Five plugins, install whichever you want:
 |---|---|---|---|
 | [anthropic](./vendored/anthropic) | [Anthropic](https://github.com/anthropics/skills) | 8 | Apache 2.0 |
 | [obra-elements-of-style](./vendored/obra-elements-of-style) | [Jesse Vincent](https://github.com/obra/the-elements-of-style) | 1 | Public domain |
-| [conorbronsdon-avoid-ai-writing](./vendored/conorbronsdon-avoid-ai-writing) | [Conor Bronsdon](https://github.com/conorbronsdon/avoid-ai-writing) | 1 | MIT |
 | [cathrynlavery-diagram-design](./vendored/cathrynlavery-diagram-design) | [Cathryn Lavery](https://github.com/cathrynlavery/diagram-design) | 1 | MIT |
 
 Each vendored folder is a pinned snapshot, not a live mirror. Updating means a fresh vendor commit
