@@ -13,7 +13,7 @@ description: Rewrite AI-sounding text so it reads like Riley wrote it, without c
 2. Run the humanizer process (How to work, sections A to F) on the text.
 3. Run the **tells Claude adds to Riley's writing** check. These survive a normal humanizer pass, so check them by name.
 4. Check his title reads "Senior Product Manager" wherever a title appears.
-5. Sensitivity scan before anything is published: no private, family or health details, nothing from his journal or personal email beyond style, nothing Workday-internal. If unsure, ask Riley.
+5. Sensitivity scan before anything is published: no private, family or health details, nothing from his journal or personal email beyond style, nothing internal to his employer. If unsure, ask Riley.
 
 ## Riley's voice profile
 
