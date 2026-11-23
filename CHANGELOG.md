@@ -2,7 +2,6 @@
 
 Newest first.
 
-- 2026-11-22 — Added `mine/riley-voice`. 23 skills total.
 - 2026-11-04 — Weekly tidy: `mine/avoid-ai-writing` sensitivity check no longer names a specific employer. 22 skills total.
 - 2026-10-21 — Added `mine/avoid-ai-writing` (blader/humanizer plus my voice profile), replacing `vendored/conorbronsdon-avoid-ai-writing` and its plugin. 22 skills total.
 - 2026-10-10 — Added `vendored/cathrynlavery-diagram-design/diagram-design`. 22 skills total.

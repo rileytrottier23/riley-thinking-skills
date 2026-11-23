@@ -8,7 +8,7 @@ here rather than left in a chat history.
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 23 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 22 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
@@ -33,7 +33,7 @@ Four plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
-| `riley-thinking-skills` | 13 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, reply-layout, AI-writing cleanup, voice, and skill-publishing skills |
+| `riley-thinking-skills` | 12 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, reply-layout, AI-writing cleanup, and skill-publishing skills |
 | `anthropic-example-skills` | 8 | Anthropic's example skills — writing, comms, and creative (Apache 2.0) |
 | `writing-skills-obra` | 1 | Strunk's Elements of Style, packaged by Jesse Vincent (public domain) |
 | `diagram-design` | 1 | Cathryn Lavery's editorial diagrams and charts as HTML and SVG (MIT) |
@@ -54,7 +54,6 @@ Four plugins, install whichever you want:
 | [diagnose-broken-integration](./mine/diagnose-broken-integration) | Diagnoses automations, syncs, CI jobs, and credentials that broke or are failing silently. |
 | [visual-output](./mine/visual-output) | Shapes replies to scan instead of read: answer first, task lists, tables, scorecards, diagrams, decisions set apart. |
 | [avoid-ai-writing](./mine/avoid-ai-writing) | Rewrites AI-sounding drafts so they read like me: the humanizer pattern list plus a profile of my own writing voice and the tells Claude keeps adding to it. |
-| [riley-voice](./mine/riley-voice) | Makes drafts of LinkedIn posts, blog posts and emails sound like me: short, plain, first person, with my openers, endings and guardrails. |
 
 ## Vendored skills (`vendored/`)
 
