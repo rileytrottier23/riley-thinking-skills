@@ -1,6 +1,6 @@
 ---
 name: visual-output
-description: Shape replies so they scan instead of read — answer first, task list for shared work, tables, status scorecards, decisions set apart, diagrams for flows. Use for any reply to Riley that has more than one part: status updates, recaps, handoffs, comparisons, research answers, plans, and any task with 3+ steps that he and Claude work on together (in the Claude app or Claude Code). Skip only for one-line answers.
+description: "ALWAYS load before writing any reply to Riley longer than about three sentences, in the Claude app or Claude Code. Shapes replies so they scan instead of read: answer first, a task list for shared work, tables, status scorecards, decisions set apart, diagrams for flows. Covers status updates, recaps, handoffs, comparisons, research answers, reviews, plans, research results and any task with 3+ steps. Skip only for one- or two-line answers."
 ---
 
 # Visual Output

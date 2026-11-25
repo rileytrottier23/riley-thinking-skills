@@ -2,6 +2,8 @@
 
 Newest first.
 
+- 2026-11-25 — Removed vendored `algorithmic-art`, `brand-guidelines` and `slack-gif-creator` (unused). Rewrote the descriptions of `chess-coach`, `decision-partner` and `visual-output` so they trigger in the situations they were missing (chess books and subscriptions, product comparisons before buying, every multi-part reply). 19 skills total.
+
 - 2026-11-04 — Weekly tidy: `mine/avoid-ai-writing` sensitivity check no longer names a specific employer. 22 skills total.
 - 2026-10-21 — Added `mine/avoid-ai-writing` (blader/humanizer plus my voice profile), replacing `vendored/conorbronsdon-avoid-ai-writing` and its plugin. 22 skills total.
 - 2026-10-10 — Added `vendored/cathrynlavery-diagram-design/diagram-design`. 22 skills total.

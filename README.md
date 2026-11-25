@@ -8,7 +8,7 @@ here rather than left in a chat history.
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 22 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 19 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
@@ -34,7 +34,7 @@ Four plugins, install whichever you want:
 | Plugin | Skills | What's in it |
 |---|---|---|
 | `riley-thinking-skills` | 12 | My thinking, reflection, personal-finance, chess, French, quality-check, integration-debugging, reply-layout, AI-writing cleanup, and skill-publishing skills |
-| `anthropic-example-skills` | 8 | Anthropic's example skills — writing, comms, and creative (Apache 2.0) |
+| `anthropic-example-skills` | 5 | Anthropic's example skills — writing, comms, and creative (Apache 2.0) |
 | `writing-skills-obra` | 1 | Strunk's Elements of Style, packaged by Jesse Vincent (public domain) |
 | `diagram-design` | 1 | Cathryn Lavery's editorial diagrams and charts as HTML and SVG (MIT) |
 
@@ -59,7 +59,7 @@ Four plugins, install whichever you want:
 
 | Collection | Author | Skills | License |
 |---|---|---|---|
-| [anthropic](./vendored/anthropic) | [Anthropic](https://github.com/anthropics/skills) | 8 | Apache 2.0 |
+| [anthropic](./vendored/anthropic) | [Anthropic](https://github.com/anthropics/skills) | 5 | Apache 2.0 |
 | [obra-elements-of-style](./vendored/obra-elements-of-style) | [Jesse Vincent](https://github.com/obra/the-elements-of-style) | 1 | Public domain |
 | [cathrynlavery-diagram-design](./vendored/cathrynlavery-diagram-design) | [Cathryn Lavery](https://github.com/cathrynlavery/diagram-design) | 1 | MIT |
 

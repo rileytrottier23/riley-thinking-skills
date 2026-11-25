@@ -1,7 +1,6 @@
 ---
 name: chess-coach
-description: >
-  Coach chess improvement for players targeting the 700–1200 Elo range. Trigger this skill whenever the user wants to improve at chess, analyze a game or position, learn an opening, practice tactics, understand a concept, or asks any chess-related question — even if phrased casually like "how do I get better at chess" or "why did I lose this game." Covers tactics, openings, endgames, middlegame principles, and game analysis. Adapts to the user's current ~700 Elo level and 1000 Elo target. Practical, pattern-focused coaching rather than engine-line memorization.
+description: "Coach chess improvement for players in the 700–1200 Elo range. Use for ANY chess topic Riley raises, not only explicit coaching requests: improving or plateauing, analyzing a game or position, openings, tactics, endgames, puzzles, his Chess.com account or rating, and choosing chess books, courses, apps, subscriptions or YouTube coaches (e.g. \"are Levy Rozman's books any good\", \"is Chess.com Gold worth it\", \"why did I lose this game\"). Adapts to his ~700 Elo level and 1000 Elo target. Practical, pattern-focused coaching rather than engine-line memorization."
 ---
 
 # Chess Coach

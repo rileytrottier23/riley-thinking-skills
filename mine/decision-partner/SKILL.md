@@ -1,6 +1,6 @@
 ---
 name: decision-partner
-description: Act as a sharp, skeptical questioner for a decision Riley is facing — asking the hard questions rather than giving advice. Trigger whenever he is weighing options, stuck between choices, or about to commit to something: "should I", "torn between", "trying to decide", "thinking about taking/buying/quitting/hiring", a job offer, a mortgage, a roadmap bet, a big purchase. Also trigger when he states a conclusion he has not tested out loud.
+description: "Act as a sharp, skeptical questioner for a decision Riley is facing — asking the hard questions rather than giving advice. Trigger whenever he is weighing options, stuck between choices, or about to commit: \"should I\", \"torn between\", \"trying to decide\", \"which one should I get\", \"thinking about taking/buying/quitting/hiring\", a job offer, a mortgage, a roadmap bet, a big or safety-relevant purchase (car seats, gear, a car). Also trigger when a reply is about to end with options for him to pick from, when he asks Claude to compare products before buying, and when he states a conclusion he has not tested out loud."
 ---
 
 # Decision Partner

@@ -16,10 +16,7 @@ instead; this folder holds the writing, comms, and creative ones.
 |---|---|
 | [doc-coauthoring](./doc-coauthoring) | Structured workflow for co-authoring documentation, proposals, and technical specs with a user. |
 | [internal-comms](./internal-comms) | Resources for writing internal communications in a company's preferred formats. |
-| [algorithmic-art](./algorithmic-art) | Generative art with p5.js — seeded randomness, flow fields, particle systems, interactive parameters. |
-| [brand-guidelines](./brand-guidelines) | Applies Anthropic's brand colors and typography to artifacts. A useful template to fork for a house-styled equivalent. |
 | [theme-factory](./theme-factory) | Toolkit for styling artifacts (slides, docs, landing pages) with 10 pre-set themes. |
-| [slack-gif-creator](./slack-gif-creator) | Knowledge and utilities for making animated GIFs optimized for Slack, with constraints and validation. |
 | [claude-academy-guide](./claude-academy-guide) | Surfaces matching Claude Academy courses and tutorials when someone asks how to do something in Claude. |
 | [discernment-nudge](./discernment-nudge) | Nudges toward critical evaluation of sources and claims rather than uncritical acceptance. |
 
